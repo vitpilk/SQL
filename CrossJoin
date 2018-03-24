@@ -1,0 +1,3 @@
+SELECT *
+FROM (SELECT [SBU] FROM 01_T_SBUs)  AS a, (SELECT [Function] FROM 02_T_Functions)  AS b
+;
